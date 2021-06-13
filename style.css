@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#banner{
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+#banner h1{
+    font-size: 60px;
+    color: white;
+    margin:20px 0px;
+}
+
+
+/* #banner p{
+    background-color: ;
+    padding:12px;
+} */
+
+.wt-section{
+    margin: 50px 0px;
+}
+
+#about{
+    margin: 20px 0px;
+}
+
+#about h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#about p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#about ul{
+   list-style-type: none;
+   margin: 30px 0px;
+}
+
+#about li{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+#dishes{
+    background-color: #242424;
+    padding: 80px 0px;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+
+.card{
+    background-color: #242424;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#content h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.content1{
+    padding-right: 100px;
+}
+
+#features-list{
+    list-style-type: none;
+}
+
+#features-list h4,p{
+    display: inline;
+}
+
+footer{
+    background-color: #242424;
+    padding: 20px 0px;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li{
+    margin: 5px 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+hr{
+    margin-top: 30px;
+    border-top: 1px solid white;
+}
+
+@media (max-width: 1197px) { 
+
+    #about h3{
+        margin-top: 20px;
+        font-size: 2.0rem;
+        font-weight: 400;
+    }
+
+    #about li{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+    .dishes-center{
+        display:flex;
+        justify-content: center;
+    }
+
+    .content1{
+        padding-right: 15px;
+        text-align: justify;
+    }
+
+    #content h3{
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+     
+    footer{
+        text-align: center;
+    }
+
+    footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    } 
+
+    footer ul li{
+        margin: 5px 5px;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+}
